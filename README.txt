@@ -1,3 +1,6 @@
+Copyleft 2012, Teodor Kulej
+Forked from: https://github.com/ntemple/mysql-keyvalue
+
 Copyright (c) 2010, Nick Temple All rights reserved.
 
 Redistribution and use in source and binary forms, with or
@@ -29,14 +32,3 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
 STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-==
-
-A simple key-value store using mysql, compatible with Redis.
-
-see lib/example.php for example of use.
-
-You'll need to create a database with at least one table,
-see lib/kvstore.php for the create statement (or use the
-$ds->_create('table') call)
-
